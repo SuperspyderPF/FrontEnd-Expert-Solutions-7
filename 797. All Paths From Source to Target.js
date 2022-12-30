@@ -1,0 +1,1 @@
+allPathsSourceTarget=z=>{N=z.length,x=[];let t=(w,o)=>{if(w===N-1){x.push([...o,w]);return;}for(b of z[w]){t(b,[...o,w]);}};t(0,[]);return x}

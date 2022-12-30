@@ -1,0 +1,1 @@
+class MyHashSet{#hs;constructor(){this.#hs={};};add(x){if(!this.#hs[x]){this.#hs[x]=true;}};remove(x){if(this.#hs[x]){delete this.#hs[x];}};contains(x){if(this.#hs[x]){return true;}else{return false;}};}
